@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+        
+        <div class="signup">
+            <form>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="FullName" placeholder="User name" required="">
+                <input type="email" name="Email" placeholder="Email" required="">
+                <input type="password" name="Password" placeholder="Password" required="">
+                <span><input type="checkbox" id="checkbox" aria-hidden="true">Remind Me</span>
+                <button type="submit" name="submit">Sign up</button>
+            </form>
+        </div>
+        
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="Email" placeholder="Email" required="">
+                <input type="password" name="Password" placeholder="Password" required="">
+                <span><input type="checkbox" id="checkbox" aria-hidden="true">Remind Me</span>
+				<button type="submit" name="submit">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
